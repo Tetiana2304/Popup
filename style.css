@@ -33,7 +33,7 @@ body {
 }
 @media (max-width: 414px) {
 	.header {
-		height: 60px;
+		height: 70px;
 	}
 }
 
@@ -74,7 +74,7 @@ body {
 }
 @media (max-width: 414px) {
 	.header__item {
-		margin: 20px 2px;
+		margin: 20px -1px;
 	}
 }
 
@@ -103,7 +103,8 @@ a {
 }
 @media (max-width: 414px) {
 	.header__link {
-		width: 70px;
+		width: 60px;
+	
 	}
 }
 
@@ -147,7 +148,6 @@ a {
 @media (max-width: 414px) {
 	.header__img {
 		width: 25px;
-		
 	}
 }
 
@@ -292,7 +292,7 @@ h4 {
 	}
 }
 
-.menu__btn:hover{
+.menu__btn:hover {
 	outline: 1px solid orange;
 	top: 2px;
 	background-color: rgb(251, 213, 159);
